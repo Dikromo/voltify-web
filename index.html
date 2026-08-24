@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voltify - Asisten Cerdas Manajemen Energi Listrik Pintar (Prabayar & Pascabayar)</title>
+  <meta name="description"
+    content="Aplikasi manajemen listrik mandiri berbasis Offline-First, Universal AI Physics, BYOK, & Kalkulator Belanja Listrik. Pantau sisa token PLN & estimasi tagihan bulanan secara akurat.">
+
+  <!-- Favicon & Fonts -->
+  <link rel="icon" type="image/png" href="../assets/images/voltify_logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Ambient Lighting Background -->
+  <div class="ambient-orb orb-1"></div>
+  <div class="ambient-orb orb-2"></div>
+  <div class="ambient-orb orb-3"></div>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="container navbar">
+      <a href="#" class="brand-logo">
+        <img src="../assets/images/voltify_logo.png" alt="Voltify Logo">
+        <span class="brand-title">Voltify</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Fitur Utama</a></li>
+        <li><a href="#showcase">Tampilan App</a></li>
+        <li><a href="#calculator">Demo Kalkulator</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#download" class="btn-cta-nav"><i class="fas fa-download"></i> Unduh APK</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-bolt"></i> Asisten Kelistrikan Pintar v1.0.0
+      </div>
+      <h1 class="hero-title">
+        Kontrol Listrik Rumah & Kos <span>Tanpa Takut Jepret!</span>
+      </h1>
+      <p class="hero-subtitle">
+        Pantau sisa token PLN prabayar, estimasi tagihan pascabayar bulanan secara live, serta uji simulasi biaya alat
+        elektronik baru secara 100% akurat & aman privasi.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#download" class="btn-primary">
+          <i class="fab fa-google-play"></i> Unduh Sekarang (Free)
+        </a>
+        <a href="#calculator" class="btn-secondary">
+          <i class="fas fa-calculator"></i> Coba Demo Live
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <h4>100%</h4>
+          <p>Offline-First & Privasi</p>
+        </div>
+        <div class="stat-item">
+          <h4>~0.8s</h4>
+          <p>Respon Volt AI Kilat</p>
+        </div>
+        <div class="stat-item">
+          <h4>0 Rupiah</h4>
+          <p>Tanpa Biaya</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Phone Mockup -->
+    <div class="mockup-wrapper">
+      <div class="floating-badge-1">
+        <i class="fas fa-shield-alt" style="color: #10b981; font-size: 20px;"></i>
+        <div>
+          <strong style="display:block; font-size: 13px;">Status Token Aman</strong>
+          <span style="font-size: 11px; color: #94a3b8;">183.36 kWh • Est. 11 Hari</span>
+        </div>
+      </div>
+
+      <div class="floating-badge-2">
+        <i class="fas fa-check-circle" style="color: #f59e0b; font-size: 20px;"></i>
+        <div>
+          <strong style="display:block; font-size: 13px;">Kapasitas PLN 4400 VA</strong>
+          <span style="font-size: 11px; color: #94a3b8;">Beban Puncak Terkendali</span>
+        </div>
+      </div>
+
+      <div class="phone-card">
+        <div class="phone-screen">
+          <img src="images/1.png" alt="Tampilan Dashboard Utama Voltify">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Grid Section -->
+  <section class="section container" id="features">
+    <div class="section-header">
+      <span class="section-tag">Fitur Unggulan</span>
+      <h2 class="section-title">Solusi Kelistrikan Pintar Terlengkap</h2>
+      <p class="section-desc">Dirancang dengan teknologi modern untuk memberikan kontrol penuh atas penggunaan daya &
+        anggaran listrik Anda.</p>
+    </div>
+
+    <div class="features-grid">
+      <!-- Feature 1 -->
+      <div class="feature-card">
+        <div class="feature-icon icon-blue"><i class="fas fa-chart-line"></i></div>
+        <h3>Prabayar & Live Running Bill</h3>
+        <p>Hitung sisa hari token prabayar dan estimasi tagihan pascabayar bulanan secara live per detik sesuai laju
+          pemakaian riil.</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="feature-card">
+        <div class="feature-icon icon-cyan"><i class="fas fa-calculator"></i></div>
+        <h3>Kalkulator Belanja Listrik</h3>
+        <p>Hitung proyeksi biaya harian/bulanan alat elektronik baru, komparasi 2 alat side-by-side, dan uji simulasi
+          batas daya PLN.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="feature-card">
+        <div class="feature-icon icon-violet"><i class="fas fa-robot"></i></div>
+        <h3>Volt AI Physics (BYOK)</h3>
+        <p>Ekstraksi spesifikasi teknis alat & foto struk otomatis berbasis hukum fisika beban listrik dengan kunci AI
+          pribadi terenkripsi.</p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="feature-card">
+        <div class="feature-icon icon-amber"><i class="fas fa-building"></i></div>
+        <h3>Voltify Pro & Multi-Unit Kos</h3>
+        <p>Kelola banyak meteran properti kost/kontrakan, pantau agregasi total pengeluaran, dan cetak invoice WhatsApp
+          1-Tap.</p>
+      </div>
+
+      <!-- Feature 5 -->
+      <div class="feature-card">
+        <div class="feature-icon icon-emerald"><i class="fas fa-user-shield"></i></div>
+        <h3>100% Offline-First & Privasi</h3>
+        <p>Seluruh data transaksi dan profil disimpan secara lokal di memori HP Anda tanpa risiko kebocoran data ke
+          server luar.</p>
+      </div>
+
+      <!-- Feature 6 -->
+      <div class="feature-card">
+        <div class="feature-icon icon-red"><i class="fas fa-film"></i></div>
+        <h3>Akses Rewarded Ad 10-Menit</h3>
+        <p>Pengguna gratis dapat membuka akses Kalkulator Belanja selama 10 menit dengan menonton 1 iklan video singkat
+          yang transparan.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Real Screenshots Gallery Showcase Section -->
+  <section class="section container" id="showcase">
+    <div class="section-header">
+      <span class="section-tag">Tampilan Aplikasi</span>
+      <h2 class="section-title">Tampilan Aplikasi Voltify</h2>
+      <p class="section-desc">Intip antarmuka modern, bersih, dan intuitif yang dirancang untuk kenyamanan penggunaan
+        sehari-hari Anda.</p>
+    </div>
+
+    <div class="showcase-grid">
+      <div class="showcase-card">
+        <img src="images/1.png" alt="Dashboard Utama Prabayar & Status Token" class="showcase-img">
+        <h4>Dashboard Utama Prabayar</h4>
+        <p>Monitor sisa token, burn-rate, & estimasi sisa hari.</p>
+      </div>
+      <div class="showcase-card">
+        <img src="images/2.png" alt="Dashboard Utama Pascaba" class="showcase-img">
+        <h4>Dashboard Utama Pascabayar</h4>
+        <p>Monitor Bugeting, burn-rate, & estimasi Tagihan.</p>
+      </div>
+
+      <div class="showcase-card">
+        <img src="images/5.png" alt="Profil Beban Alat Listrik Rumah" class="showcase-img">
+        <h4>Profil Beban Alat</h4>
+        <p>Daftar lengkap daya Watt & jam nyala alat elektronik.</p>
+      </div>
+
+      <div class="showcase-card">
+        <img src="images/6.png" alt="Kalkulator Belanja Listrik & Overload Check" class="showcase-img">
+        <h4>Kalkulator Belanja</h4>
+        <p>Simulasi biaya alat baru & Quick VA Switcher.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Live Calculator Demo Section -->
+  <section class="section demo-section" id="calculator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Uji Coba Langsung</span>
+        <h2 class="section-title">Demo Kalkulator Biaya Listrik</h2>
+        <p class="section-desc">Coba hitung berapa perkiraan biaya listrik alat elektronik Anda langsung di website ini!
+        </p>
+      </div>
+
+      <div class="calc-box">
+        <div class="calc-form">
+          <div style="margin-bottom: 20px;">
+            <label style="font-weight: 700; font-size: 13px; color: var(--cyan-accent);">PILIH PRESET POPULER:</label>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px;">
+              <button class="demo-preset-btn btn-secondary" style="padding: 6px 14px; font-size: 12px;" data-watt="220"
+                data-hours="8">AC 1/2 PK Inverter (220W)</button>
+              <button class="demo-preset-btn btn-secondary" style="padding: 6px 14px; font-size: 12px;" data-watt="1000"
+                data-hours="0.5">Air Fryer (1000W)</button>
+              <button class="demo-preset-btn btn-secondary" style="padding: 6px 14px; font-size: 12px;" data-watt="100"
+                data-hours="24">Kulkas 2 Pintu (100W)</button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="demoWatt">Daya Elektronik (Watt):</label>
+            <input type="number" id="demoWatt" class="form-control" value="220">
+          </div>
+
+          <div class="form-group">
+            <label for="demoHours">Durasi Pemakaian Harian: <strong id="hoursVal" style="color: var(--cyan-accent);">8
+                Jam/Hari</strong></label>
+            <input type="range" id="demoHours" class="range-slider" min="0.5" max="24" step="0.5" value="8">
+          </div>
+
+          <div class="form-group">
+            <label for="demoTariff">Golongan Tarif PLN:</label>
+            <select id="demoTariff" class="form-control">
+              <option value="1444.7">R-1 / 1300 VA - 2200 VA (Rp 1.444,70/kWh)</option>
+              <option value="1699.53" selected>R-2 / 3500 VA - 5500 VA (Rp 1.699,53/kWh)</option>
+              <option value="1352.0">R-1 / 900 VA Non-Subsidi (Rp 1.352,00/kWh)</option>
+              <option value="605.0">R-1 / 900 VA Subsidi (Rp 605,00/kWh)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div>
+            <span style="font-size: 13px; color: var(--text-muted);">Proyeksi Tambahan Biaya Listrik:</span>
+            <div class="res-cost" id="demoMonthlyCost">Rp 112.169</div>
+            <span style="font-size: 12px; color: var(--emerald-accent); font-weight: 600;"><i
+                class="fas fa-calendar-alt"></i> Estimasi Per Bulan (30 Hari)</span>
+          </div>
+
+          <div style="padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 20px;">
+            <div style="display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 6px;">
+              <span>Biaya Per Hari:</span>
+              <strong id="demoDailyCost" style="color: #fff;">Rp 3.739</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 13px;">
+              <span>Biaya Per Tahun (365d):</span>
+              <strong id="demoYearlyCost" style="color: var(--amber-accent);">Rp 1.364.723</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section container" id="faq">
+    <div class="section-header">
+      <span class="section-tag">FAQ</span>
+      <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+      <p class="section-desc">Segala hal yang perlu Anda ketahui tentang penggunaan Voltify.</p>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Bagaimana Voltify menghitung estimasi sisa hari token?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Voltify menghitung laju pemakaian (burn-rate) berdasarkan selisih riwayat log token Anda dan total watt beban alat listrik terdaftar. Saldo token berkurang secara real-time berdasarkan burn-rate harian tersebut.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Apakah data saya disimpan di server online?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Tidak. Voltify menganut prinsip Offline-First. Seluruh data profil meteran, riwayat transaksi, dan beban alat disimpan 100% secara lokal di HP Anda menggunakan database SQLite yang terenkripsi.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Apakah Kunci API Volt AI (Gemini) saya aman?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Sangat aman. Kunci API disimpan di penyimpanan terenkripsi hardware (EncryptedSharedPreferences / Keychain) dan hanya dikirimkan secara langsung ke endpoint resmi Google Gemini API.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Apakah Voltify merupakan aplikasi resmi PLN?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Bukan. Voltify adalah aplikasi asisten mandiri (third-party) untuk membantu pengguna memantau dan mengestimasi pengeluaran listrik secara independen.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Mengapa ada iklan di Voltify & bagaimana cara menghilangkannya?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Voltify menampilkan iklan banner dan native dari Google AdMob untuk mendukung pengembangan versi gratis. Anda dapat menikmati pengalaman 100% bebas iklan dengan berlangganan Voltify Pro.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Bagaimana cara kerja akses Kalkulator Belanja Listrik?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Pengguna gratis dapat membuka akses Kalkulator Belanja selama 10 menit dengan menonton 1 video iklan (Rewarded Ad) hingga selesai. Bagi pengguna Voltify Pro, Kalkulator Belanja dapat diakses 100% tanpa batas waktu selamanya tanpa iklan.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section class="section container" id="download" style="text-align: center;">
+    <div
+      style="background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(139, 92, 246, 0.2)); border: 1px solid rgba(2, 132, 199, 0.4); border-radius: 32px; padding: 60px 24px;">
+      <h2 style="font-family: var(--font-heading); font-size: 40px; font-weight: 900; margin-bottom: 16px;">Mulai Kelola
+        Listrik Pintar Anda Hari Ini!</h2>
+      <p style="color: var(--text-muted); max-width: 540px; margin: 0 auto 36px; font-size: 16px;">Unduh Voltify secara
+        gratis dan rasakan kemudahan mengontrol pengeluaran energi listrik tanpa rasa cemas.</p>
+      <a href="#" class="btn-primary" style="padding: 18px 36px; font-size: 18px;">
+        <i class="fab fa-android"></i> Unduh APK Voltify v1.0.0
+      </a>
+    </div>
+  </section>ion>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <img src="../assets/images/voltify_logo.png" alt="Voltify Logo">
+          <span class="brand-title">Voltify</span>
+        </div>
+        <p>Asisten Cerdas Manajemen Energi Listrik Pintar Prabayar & Pascabayar Berbasis Offline-First & BYOK AI.</p>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Navigasi</h4>
+        <ul class="footer-links">
+          <li><a href="#features">Fitur Utama</a></li>
+          <li><a href="#calculator">Demo Kalkulator</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Legalitas</h4>
+        <ul class="footer-links">
+          <li><a href="privacy.html">Kebijakan Privasi</a></li>
+          <li><a href="disclaimer.html">Penafian (Disclaimer)</a></li>
+          <li><a href="#faq">FAQ & Bantuan</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2026 Voltify App. All rights reserved. Voltify bukan merupakan aplikasi resmi PT PLN (Persero) dan
+      beroperasi secara independen.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
